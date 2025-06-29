@@ -1,0 +1,36 @@
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# 核心依赖（匹配你要求）
+torch==2.3.0+cu121
+torchaudio==2.3.0
+TTS==0.22.0
+numpy==1.22.0
+
+# 音频处理
+soundfile
+pydub
+scipy==1.11.2
+
+# Web API
+fastapi
+uvicorn
+
+# 中文文本处理
+jieba
+OpenCC
+
+# 文本/图像
+transformers
+Pillow
+python-docx
+
+# AI/语音识别
+whisper
+
+# 前端 Web UI
+gradio
+requests
+
+# 日志美化
+colorama
+colorlog

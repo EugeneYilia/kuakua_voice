@@ -1,0 +1,17 @@
+torch
+transformers
+whisper
+gradio
+jieba
+requests
+Pillow  # PIL库的现代版本
+OpenCC  # 简繁转换
+soundfile  # 处理音频文件
+python-docx  # 操作Word文档
+numpy  # 可能被其他库依赖
+scipy  # 可能被其他库依赖
+# 添加TTS如果是通过pip可安装的
+TTS==0.22.0
+pydub
+colorama
+colorlog
